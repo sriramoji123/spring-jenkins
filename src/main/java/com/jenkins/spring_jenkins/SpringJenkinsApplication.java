@@ -17,6 +17,7 @@ public class SpringJenkinsApplication {
 	@PostConstruct
 	public void init(){
 		logger.info("Application started");
+		logger.info("Application started second");
 	}
 
 	public static void main(String[] args) {
